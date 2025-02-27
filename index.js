@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Create a simple GET endpoint
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  res.send('Hello, Worlds!');
 });
 
 // Create a simple POST endpoint
