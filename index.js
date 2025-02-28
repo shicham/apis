@@ -40,7 +40,7 @@ app.post("/api/wishlist", async (req, res) => {
 
   } catch (error) {
     console.error("Error adding product to wishlist:", error);
-    res.status(500).json({ error: "Failed to add product to wishlist" });
+    res.status(500).json({ error: error });
   }
 });
 
