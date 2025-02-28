@@ -6,8 +6,8 @@
     "test": "test"
   },
   "scripts": {
-    "dev": "node index.js",      // Your local dev script
-    "build": "prisma generate && node index.js", // This ensures Prisma Client is generated before the app runs
+    "dev": "node index.js",     
+    "build": "prisma generate && node index.js",
     "start": "node index.js"
   },
   "keywords": [],
