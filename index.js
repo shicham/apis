@@ -41,7 +41,7 @@ app.post("/api/wishlist", async (req, res) => {
 app.get("/api/wishlist/", async (req, res) => {
   
     try {
-      res.json({wishlistItems:"wishlistItems"});
+      res.json({wishlistItems:"sssswishlistItems"});
     } catch (error) {
       console.error("Error fetching wishlist:", error);
       res.status(500).json({ error: "Failed to fetch wishlist" });
