@@ -6,8 +6,9 @@
     "test": "test"
   },
   "scripts": {
-    "dev": "prisma generate && node index.js",   
-    "build": "prisma generate && node index.js"
+    "dev": "node index.js",   
+    "build": "prisma generate && node index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
