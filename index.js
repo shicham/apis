@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());  // For parsing JSON bodies
-
+console.log(process.env.DATABASE_URL)
 // MongoDB connection setup
 mongoose.connect(process.env.DATABASE_URL, {
   useNewUrlParser: true,
