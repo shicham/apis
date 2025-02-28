@@ -9,9 +9,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());  // For parsing JSON bodies
-console.log(process.env.MONGODB_URI)
+console.log(process.env.DATABASE_URL)
 // MongoDB connection setup
-mongoose.connect(process.env.MONGODB_URI)
+mongoose.connect(process.env.DATABASE_URL)
 .then(() => console.log("MongoDB connected"))
 .catch((err) => console.error("Error connecting to MongoDB:", err));
 
