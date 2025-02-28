@@ -41,7 +41,7 @@ app.post("/api/wishlist", async (req, res) => {
 app.get("/api/wishlist/", async (req, res) => {
   
     try {
-      res.json({wishlistItems:"sssswishlistItems", url:process.env.DATABASE_URL});
+      res.json({wishlistItems:"11sssswishlistItems", url:process.env.DATABASE_URL});
     } catch (error) {
       console.error("Error fetching wishlist:", error);
       res.status(500).json({ error: "Failed to fetch wishlist" });
