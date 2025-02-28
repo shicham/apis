@@ -1,12 +1,14 @@
 const express = require('express');
 const app = express();
 const { PrismaClient } = require('@prisma/client');
+const prisma = new PrismaClient();
+
 // Middleware to parse JSON bodies
 app.use(express.json());
 
 // Create a simple GET endpoint
 app.get('/', (req, res) => {
-  res.send('Hello, Worldsss!');
+  res.send('Hello, hii!');
 });
 
 // Create a simple POST endpoint
