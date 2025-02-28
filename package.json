@@ -14,7 +14,9 @@
   "description": "",
   "dependencies": {
     "@prisma/client": "^6.4.1",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "mongoose": "^8.11.0",
     "prisma": "^6.4.1"
   }
 }
