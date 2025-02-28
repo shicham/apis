@@ -47,7 +47,7 @@ app.post("/api/wishlist", async (req, res) => {
 app.get("/api/wishlist/", async (req, res) => {
   
     try {
-      res.json({wishlistItems:"11sssswishlistItemsss", url:process.env.MONGODB_URI});
+      res.json({wishlistItems:"11sssswishlistItemsss", url:process.env.DATABASE_URL});
     } catch (error) {
       console.error("Error fetching wishlist:", error);
       res.status(500).json({ error: "Failed to fetch wishlist" });
