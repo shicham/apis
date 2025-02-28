@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-
+const { PrismaClient } = require('@prisma/client');
 // Middleware to parse JSON bodies
 app.use(express.json());
 
